@@ -18,7 +18,7 @@ const cell9 = document.querySelector('#c9');
 const cells = document.querySelectorAll('.cell');
 
 const game = {
-    // add counter and gamePlay here
+
 }
 
 let counter = 0;
@@ -59,7 +59,7 @@ const player2 = new Player('kevin', 'X');
 
 
 
-// Game Over
+
 function gameOver(winner) {
     if (
         (gameBoard.cells[0] === gameBoard.cells[1] === gameBoard.cells[2]) ||
@@ -83,7 +83,6 @@ function gameOver(winner) {
 
 
 
-// Reload button functionality
 function reload() {
     const reload = document.querySelector('.reload');
     reload.addEventListener('click', () => {
